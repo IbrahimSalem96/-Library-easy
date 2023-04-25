@@ -1,0 +1,167 @@
+/*#################################################################################################################################################################*/
+/*                                                         Center element use position                                                                             */
+/*#################################################################################################################################################################*/
+.etl {
+    top: 0;
+    left: 0;
+}
+
+.etc {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.etr {
+    top: 0;
+    right: 0;
+}
+
+.ecl {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.ecc {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ecr {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.ebl {
+    bottom: 0;
+    left: 0;
+}
+
+.ebc {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ebr {
+    bottom: 0;
+    right: 0;
+}
+
+/*#################################################################################################################################################################*/
+/*                                                         Center element use position -50%  offset                                                                */
+/*#################################################################################################################################################################*/
+.etlo {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.etco {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.etro {
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.eclo {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.ecco {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ecro {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.eblo {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.ebco {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.ebro {
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+}
+
+/*#################################################################################################################################################################*/
+/*                                                         Center element use Flex                                                                             */
+/*#################################################################################################################################################################*/
+.etlf {
+    display: flex;
+    justify-content: start;
+ }
+.etcf {
+    display: flex;
+    justify-content: center;
+ }
+.etrf {
+    display: flex;
+    justify-content: end;
+ }
+
+
+
+
+
+
+.eclf {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.eccf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ecrf {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+
+.eblf {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.ebcf {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.ebrf {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

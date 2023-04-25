@@ -1,0 +1,24 @@
+.d-i{
+    display: inline;
+}
+.d-ib{
+    display: inline-block;
+}
+.d-b{
+    display: block;
+}
+.d-f{
+    display: flex;
+}
+.d-if{
+    display: inline-flex;
+}
+.d-g{
+    display: grid;
+}
+.d-ig{
+    display: inline-grid;
+}
+.d-n{
+    display: none;
+}
